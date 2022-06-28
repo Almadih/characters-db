@@ -97,7 +97,7 @@ define(['./workbox-1f5f9bb5'], (function (workbox) { 'use strict';
     "revision": null
   }, {
     "url": "index.html",
-    "revision": "4850b1ad1852afe24e2e6068bacedf0e"
+    "revision": "6b25674fdb73df1e34ae79fc84bb01a0"
   }, {
     "url": "favicon.ico",
     "revision": "dc05909cfacdcd1b748ddc6c9bed8b89"
