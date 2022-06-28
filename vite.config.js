@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 const pwaOptions = {
   mode: 'development',
-  base: '/',
+  base: '/characters-db/',
   includeAssets: ['favicon.ico'],
   manifest: {
     name: 'Characters Database',
@@ -25,5 +25,6 @@ const pwaOptions = {
 }
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/characters-db',
   plugins: [react(),VitePWA(pwaOptions)]
 })
